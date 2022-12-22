@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.b20190305002.MainActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            android:layout_above="@id/btnStart"
+            android:layout_below="@id/MainText"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="-200dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="-43dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/MainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="183dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="210dp"
+            android:backgroundTint="#2D1A50"
+            android:text="Ottoman History"
+            android:textColor="#FFC107"
+            app:iconTint="#9E1818"
+            app:rippleColor="#471B1B"
+            app:strokeColor="#CD6363" />
+
+
+        <Button
+            android:id="@+id/btnStart2"
+            android:layout_width="191dp"
+            android:layout_height="86dp"
+            android:layout_below="@id/btnStart"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="202dp"
+            android:layout_marginTop="-86dp"
+            android:layout_marginEnd="0dp"
+            android:backgroundTint="#2D1A50"
+            android:text="the History of Revolution"
+            android:textColor="#FFC107" />
+
+        <Button
+            android:id="@+id/open_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnStart"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="118dp"
+            android:backgroundTint="#2D1A50"
+            android:text="Tutorial (Ottoman History)"
+            android:textColor="#FFC107"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/open_video2"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/open_video"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="116dp"
+            android:backgroundTint="#2D1A50"
+            android:text="Tutorial             (the History of Revolution)"
+            android:textColor="#FFC107"
+            android:textSize="12sp">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnStart"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="-270dp"
+            android:layout_marginEnd="167dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Choose option"
+            android:textColor="#2D1A50"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+</RelativeLayout>
